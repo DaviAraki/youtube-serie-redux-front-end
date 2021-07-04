@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import Message from "./components/Message";
 
-import Layout from './layout';
-import Pages from './pages';
+import Layout from "./layout";
+import Pages from "./pages";
 
 export default function App() {
-	return (
-		<Layout>
-			<Pages />
-		</Layout>
-	);
+  return (
+    <Layout>
+      <Message />
+      <Pages />
+    </Layout>
+  );
 }
